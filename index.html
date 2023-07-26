@@ -115,9 +115,47 @@
               </nav>
         </section>
 
-        <!-- banner section -->
+        <!-- banner section with carousel/slider -->
         <section>
-
+            <div class="carousel w-auto mx-4 md:mx-16 lg:mx-20 mt-8 md:mt-12  lg:mt-16">
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="/images/banner1.png" class="w-full" />
+                  <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2 ">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <div class="w-auto text-white text-center">
+                        <h1 class="mb-1 md:mb-3 lg:mb-5 text-xl md:text-3xl lg:text-6xl font-bold">Exotic tastes at your <br> doorstep</h1>
+                        <p class="mb-4 md:mb-5 text-xs">We supply highly quality organic products</p>
+                        <button class="btn text-white border-0 bg-[#F85559]">Shop Now</button>
+                    </div>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <!-- slide 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="/images/banner2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <!-- slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="/images/banner3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <!-- slide 3 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="/images/banner4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
         </section>
     
     </header>
